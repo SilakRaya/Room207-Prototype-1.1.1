@@ -8,4 +8,4 @@ func _ready():
 
 func _on_animation_finished(anim_name):
 	# Switch to MainMenu scene
-	get_tree().change_scene_to_file("res://MainMenu.tscn")  # Adjust path as needed
+	get_tree().change_scene_to_file("res://Main-Menu/MainMenu.tscn")  # Adjust path as needed

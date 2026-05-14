@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cahe1tj8mpfib"]
 
 [ext_resource type="Texture2D" uid="uid://bix07m6hwcm0u" path="res://SilakRayaIntro/textures/instance25.png" id="1_h7a2f"]
-[ext_resource type="Script" uid="uid://ngrxqdrphrtb" path="res://main_menu.gd" id="1_iwfq2"]
+[ext_resource type="Script" uid="uid://ngrxqdrphrtb" path="res://Main-Menu/main_menu.gd" id="1_iwfq2"]
 [ext_resource type="Texture2D" uid="uid://bfjme4hlumbhi" path="res://SilakRayaIntro/textures/instance27.png" id="2_qoqlk"]
 [ext_resource type="FontFile" uid="uid://4scieg81k82o" path="res://Fonts/fibre-font.otf" id="3_iwfq2"]
 [ext_resource type="Texture2D" uid="uid://d3aerqw7qcnrw" path="res://ASSets/logo_large_monochrome_light.png" id="4_qoqlk"]
