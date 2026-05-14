@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cfupuefu8bygn"]
+
+[node name="Label" type="Label" unique_id=324786537]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Dangal Greetings!"

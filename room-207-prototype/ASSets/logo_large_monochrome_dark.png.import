@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3aerqw7qcnrw"
-path="res://.godot/imported/logo_large_monochrome_light.png-f94ef98f976deaadd119294c5415dd9f.ctex"
+uid="uid://cha3eeao87wd4"
+path="res://.godot/imported/logo_large_monochrome_dark.png-e82a1bd8a199209c1f3ad1e5bd829111.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://logo_large_monochrome_light.png"
-dest_files=["res://.godot/imported/logo_large_monochrome_light.png-f94ef98f976deaadd119294c5415dd9f.ctex"]
+source_file="res://ASSets/logo_large_monochrome_dark.png"
+dest_files=["res://.godot/imported/logo_large_monochrome_dark.png-e82a1bd8a199209c1f3ad1e5bd829111.ctex"]
 
 [params]
 
