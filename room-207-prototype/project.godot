@@ -22,6 +22,10 @@ window/size/viewport_height=720
 window/size/resizable=false
 window/size/borderless=true
 
+[dotnet]
+
+project/assembly_name="Room207-Prototype"
+
 [input]
 
 left={
