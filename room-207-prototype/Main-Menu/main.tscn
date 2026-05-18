@@ -1,9 +1,12 @@
 [gd_scene format=3 uid="uid://bv7uk01qb30s2"]
 
 [ext_resource type="PackedScene" uid="uid://rk0glj2udx3d" path="res://SilakRayaIntro/SilakRayaIntro.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://cn5mjo66dbf7t" path="res://bg_music.tscn" id="2_t2v3l"]
 
 [node name="Main" type="Node2D" unique_id=432920584]
 
 [node name="SilakRayaIntro" parent="." unique_id=1875510279 instance=ExtResource("1_ig7tw")]
 position = Vector2(5, 4)
 scale = Vector2(2, 2)
+
+[node name="AudioStreamPlayer2D" parent="." unique_id=258840311 instance=ExtResource("2_t2v3l")]

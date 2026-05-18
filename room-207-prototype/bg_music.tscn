@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cn5mjo66dbf7t"]
+
+[ext_resource type="AudioStream" uid="uid://dyns6m78d3ful" path="res://Ost/Takbo.wav" id="1_p1osb"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" unique_id=258840311]
+stream = ExtResource("1_p1osb")
+autoplay = true

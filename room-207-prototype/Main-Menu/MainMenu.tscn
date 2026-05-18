@@ -6,7 +6,7 @@
 [ext_resource type="FontFile" uid="uid://4scieg81k82o" path="res://Fonts/fibre-font.otf" id="3_iwfq2"]
 [ext_resource type="Texture2D" uid="uid://d3aerqw7qcnrw" path="res://ASSets/logo_large_monochrome_light.png" id="4_qoqlk"]
 [ext_resource type="PackedScene" uid="uid://0e6pg0204rx3" path="res://JolinaFrown/JolinaFrown.tscn" id="6_vwu2b"]
-[ext_resource type="Texture2D" uid="uid://cqlya3pwemonw" path="res://icon.svg" id="7_du1xd"]
+[ext_resource type="Texture2D" uid="uid://ii18nwjh57dy" path="res://Characters/Marvin.png" id="7_48x7w"]
 [ext_resource type="Script" uid="uid://c08sghksh2358" path="res://Scripts/button.gd" id="8_ym82n"]
 [ext_resource type="PackedScene" uid="uid://m5nv4ab5w0yn" path="res://Main-Menu/Hand/Hand.tscn" id="9_48x7w"]
 
@@ -462,6 +462,11 @@ _data = {
 &"eraseTransition": SubResource("Animation_x84d5")
 }
 
+[sub_resource type="LabelSettings" id="LabelSettings_48x7w"]
+font = ExtResource("3_iwfq2")
+font_size = 47
+font_color = Color(0, 0, 0, 1)
+
 [node name="MainMenu" type="Control" unique_id=1406051104]
 layout_mode = 3
 anchors_preset = 15
@@ -491,8 +496,8 @@ anchor_left = 0.5
 anchor_right = 0.5
 offset_left = -332.0
 offset_top = 70.0
-offset_right = 323.00208
-offset_bottom = 270.0001
+offset_right = 323.00195
+offset_bottom = 270.0002
 grow_horizontal = 2
 text = "ROOM207"
 label_settings = SubResource("LabelSettings_7r1g0")
@@ -512,7 +517,7 @@ anchor_bottom = 0.5
 offset_left = -123.0
 offset_top = -68.0
 offset_right = 120.0
-offset_bottom = 3.0
+offset_bottom = 3.000061
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -530,8 +535,8 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -125.5
 offset_top = 21.5
-offset_right = 117.49707
-offset_bottom = 92.50012
+offset_right = 117.49658
+offset_bottom = 92.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -549,8 +554,8 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -128.0
 offset_top = 111.0
-offset_right = 114.99756
-offset_bottom = 182.00067
+offset_right = 114.99695
+offset_bottom = 182.0008
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -568,8 +573,8 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -123.5
 offset_top = 199.5
-offset_right = 119.49878
-offset_bottom = 270.50012
+offset_right = 119.49817
+offset_bottom = 270.50024
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -598,15 +603,15 @@ flat = true
 
 [node name="MarvinPlaceholder" type="Sprite2D" parent="." unique_id=1386794644]
 position = Vector2(195.45453, 1060.9089)
-scale = Vector2(2.424716, 4.6661925)
-texture = ExtResource("7_du1xd")
+scale = Vector2(0.76679504, 0.7256551)
+texture = ExtResource("7_48x7w")
 
 [node name="Marvin" type="Button" parent="." unique_id=456161969]
 layout_mode = 0
 offset_left = 372.72726
 offset_top = 1118.1818
-offset_right = 607.7275
-offset_bottom = 1204.1823
+offset_right = 607.7273
+offset_bottom = 1204.1826
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_iwfq2")
 theme_override_font_sizes/font_size = 77
@@ -617,8 +622,8 @@ flat = true
 layout_mode = 0
 offset_left = 450.9091
 offset_top = 1161.8181
-offset_right = 777.90906
-offset_bottom = 1271.8181
+offset_right = 777.9092
+offset_bottom = 1271.8184
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_iwfq2")
 theme_override_font_sizes/font_size = 101
@@ -710,6 +715,13 @@ theme_override_fonts/font = ExtResource("3_iwfq2")
 theme_override_font_sizes/font_size = 150
 text = "EPISODE 5"
 flat = true
+
+[node name="Label" type="Label" parent="." unique_id=1786094486]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "VER: 1.0.0"
+label_settings = SubResource("LabelSettings_48x7w")
 
 [node name="Hand" parent="." unique_id=1138066097 instance=ExtResource("9_48x7w")]
 position = Vector2(964.5454, 519.0909)
