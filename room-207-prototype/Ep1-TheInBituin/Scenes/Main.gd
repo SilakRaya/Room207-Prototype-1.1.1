@@ -73,8 +73,8 @@ func _on_play_pressed() -> void:
 # call the EpisodeTitle & EpisodeDesc
 func _on_episode_one_pressed() -> void:
 	episodeSelected = "EpisodeOne"
-	%EpisodeTitle.text = "The In Bituin"
-	%EpisodeTDesc.text = "Currently in Prototype!"
+	%EpisodeTitle.text = "All I Feel And See"
+	%EpisodeTDesc.text = "Jolina Route, Marvin still in works"
 
 func _on_episode_two_pressed() -> void:
 	episodeSelected = "EpisodeTwo"

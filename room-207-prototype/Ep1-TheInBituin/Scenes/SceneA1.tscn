@@ -150,10 +150,10 @@ tracks/3/path = NodePath("Label:text")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
-"times": PackedFloat32Array(4.496667, 5.0666666, 5.6666665, 6.133333, 6.6, 7.02, 7.43, 7.633333, 7.8333335, 8.145426, 13.6),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(4.496667, 5.0666666, 5.6666665, 6.133333, 6.6, 7.02, 7.43, 7.633333, 7.8333335, 8.145426, 11.666667, 13.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": ["", "room207", "episode", "1", "the", "In", "between", "b-----", "bituin", "the in bituin", "story by: x40Arcade"]
+"values": ["", "room207", "episode", "1", "All", "I", "Feel", "And", "See", "All I Feel And See", "(Jolina Route)", "story by: x40Arcade"]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
